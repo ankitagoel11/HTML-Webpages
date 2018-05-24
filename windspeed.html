@@ -1,0 +1,96 @@
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Windspeed</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    
+    
+    <body> 
+        
+        
+         <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="index.html">Lattitude</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="Comparison.html">Comparison</a></li>
+          <li><a href="datapage.html">Data</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="temperature.html">Lattitude - Temp</a></li>
+              <li><a href="humidity.html">Lattitude Vs. Humidity</a></li>
+              <li><a href="Cloudiness.html">Lattitude Vs. Cloudiness</a></li>
+              
+              <li><a href="windspeed.html">Lattitude Vs. Windspeed</a></li>
+              
+            </ul>
+          </li>
+        </ul>      
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+        
+    <div class="row" style=padding:10px;>
+            <div class="col-md-6 col-sm-12" style=background-color:white>
+              <h2 style=text-align:left>
+                Latitude vs. Wind Speed
+              </h2>
+              <img src="Latitide%20vs%20Temperature.png" alt="Latitude vs. Wind Speed">
+              <p> 
+                  This graph shows Latitude vs. Wind Speed for the given date for different cities across the globe. There is no correlation between Latitude and Cloudiness, indicating that it is unlikely that cloudines could be the factor depending on the lattitude.
+              </p>
+            </div>
+        
+        
+        <div class="col-md-6 col-sm-12" style=background-color:white;>
+                    <h2>
+                      Visualizations
+                    </h2>
+                    
+                    <div class="row" style=padding:10px;>
+                        <div class="col-md-3 col-sm-6">
+                            <a href="temperature.html" align="left"> 
+                                <img src="Latitide vs Temperature.png" alt="Latitude vs. Temperature">
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <a class="link" href="windspeed.html">
+                                    <img src="Latitide vs Temperature.png" alt="Latitude vs. Wind Speed">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row" style=padding:10px;>
+                        <div class="col-md-3 col-sm-6">
+                            <a class="link" href="Cloudiness.html">
+                                <img src="Latitide vs Temperature.png" alt="Latitude vs. Cloudiness">
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <a class="link" href="humidity.html">
+                                <img src="Latitide vs Temperature.png" alt="Latitude vs. Humidity">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        
+    </body>
